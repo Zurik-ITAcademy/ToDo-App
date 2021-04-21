@@ -1,0 +1,89 @@
+
+.bigContainer{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/maxresdefault.jpg) top center  / cover no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.container1{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    margin-left: 250px;
+    justify-content: top;
+    align-items: center;
+    background: rgb(222,80,99);
+    background: linear-gradient(148deg, rgba(222,80,99,1) 2%, rgba(153,31,96,1) 63%, rgba(213,25,84,1) 100%);
+    box-shadow: 0 0 30px rgb(168, 85, 200);
+    border-radius: 15px;
+}
+
+.card_header{
+    padding: 5px;
+    flex: 0 60px 0;
+    border-radius: 50%;
+    border: 1px dotted #fff;
+    background: #fff;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgb(168, 85, 200);
+}
+
+form input{
+    border: none;
+    outline: none;
+    background: none;
+    margin: 20px 5px;
+    color:#fff;
+}
+
+.input_1, .input_2{
+    height: 50px;
+    border-bottom: 1px dotted #fff;
+}
+
+.input_1, .input_2 i{
+    color: #fff;
+}
+
+.textLink, .btnGroup{
+    margin : 15px 0;
+}
+
+.textLink a{
+    text-decoration: dashed;
+    color: mediumblue;
+    font-size: 18px;
+}
+
+.btnGroup button{
+    padding: 5px 20px;
+    background-color: rgba(13, 121, 184, 0.835);
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgb(168, 85, 200);
+}
+
+@media (max-width:992px) and (min-width:300px) {
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:0 ;
+    }
+
+    .bigContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
